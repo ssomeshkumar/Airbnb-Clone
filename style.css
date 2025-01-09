@@ -3,5 +3,41 @@
     padding: 0%;
 }
 .nav-2 img{
-    width: 30px;
+    width: 22px;
+    padding: 7px;
+}
+.nav-1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-1-sea{
+    border: solid white 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    border-radius: 30px;
+    padding: 15px;
+    width: 70%;
+}
+.nav-1-sea input::placeholder{
+    color: black;
+    padding: 2px;
+}
+.nav-1-sea input{
+    border: none;
+    outline: none;
+    width: 100%;
+}
+.navbar{
+    padding: 20px;
+}
+.nav-2{
+    border: solid #D0D0D0 1px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
