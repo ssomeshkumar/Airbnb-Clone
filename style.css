@@ -3,8 +3,11 @@
     padding: 0%;
     font-size: 12px;
 }
+.airbnb{
+    width: 40px;
+}
 .nav-2 img{
-    width: 22px;
+    width: 20px;
     padding: 7px;
 }
 .nav-1{
@@ -43,6 +46,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    display: none;
 }
 /* catogories*/
 .catogories-con1 img{
@@ -98,6 +102,7 @@
 }
 .tax-1 span{
     margin-top: 1px;
+    color: #524f4ff6;
 }
 /*restuant price*/
 .rest-img img{
@@ -117,7 +122,7 @@
 .heart{
     width: 20px;
     position: relative;
-    bottom: 385px;
+    bottom: 380px;
     left: 90%;
     
 }
@@ -134,19 +139,116 @@
     border-radius: 10px;
     text-align: center;
     position: relative;
-    bottom: 360px;
+    bottom: 359px;
     left: 4%;
     
 }
 .rest-tit{
     display: flex;
-    gap: 50%;
-    
-    
+    gap: 59%;
+       
+}
+.rest{
+    margin-top: 10px;
 }
 .rest-cont{
     display: grid;
     justify-content: center;
     align-items: center;
 
+}
+/*show more*/
+.more-cont{
+    font-size: 13px;
+    font-weight: 600;  
+    text-align: center;
+
+}
+.more-cont button{
+    padding: 8px;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    border: none;
+    margin-top: 6px;
+}
+.more{
+    margin-top: 5px;
+}
+/* footer*/
+.foot{
+    margin-top: 5px;
+}
+.foot-main1 a{
+    text-decoration: none;
+    color: #524f4ff6;
+
+}
+.f-h{
+    margin: 15px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.foot-main1{
+    display: flex;
+    gap: 25px;
+    overflow: scroll;
+    scrollbar-width:none ;
+    margin-top: 10px; 
+    border-bottom: solid #d1cdcd 1px; 
+    margin: 15px;
+    padding-bottom: 10px;
+}
+.foot-main1 p:hover{
+    border-bottom: solid black 1px;
+}
+.foot-main2{
+    display: flex;
+    gap: 70px;
+    margin: 15px;
+    border-bottom: solid #d1cdcd 1px; 
+    padding-bottom: 25px;
+}
+.foot-main2-1{
+    margin-top: 15px;
+}
+.foot{
+    background-color:#F7F7F7;
+    padding: 15px;
+    margin-top: 15px;
+}
+.foot-main2 span{
+    color: #524f4ff6;
+}
+.foot-main3{
+    margin: 15px;
+    margin-top: 25px;
+    border-bottom: solid #d1cdcd 1px; 
+    padding-bottom: 25px;
+}
+.foot-main3 p{
+    margin-top: 15px;
+}
+.foot-m4-1 img{
+    width: 18px;
+}
+.foot-m4-1{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.foot-m4{
+    display: flex;
+    gap: 50px;
+    margin: 15px;
+    margin-top: 25px;
+    align-items: center;
+   
+}
+.foot-m4-2{
+    margin: 15px;
+}
+.foot-m4-2  p{
+    margin-top: 5px;
 }
