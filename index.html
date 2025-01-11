@@ -1,507 +1,632 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Airbnb</title>
     <!--icon link-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <!--style-->
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
     <main class="main-content">
-        <div class="main-content-1">
-            <!--navbar-->
-            <nav class="navbar">
-                <div class="nav-1">
-                    <img src="./image/airbnb.png" alt="" class="airbnb">
-                 <div class="nav-1-sea">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                    <input type="text" placeholder="Start your search">
-                 </div>
-                 <div class="nav-2">
-                    <img src="./image/settings.png" alt="">
-                 </div>
-                </div>
-            </nav>
-            <!--catogories-->
-            <div class="catogories">
-                <div class="catogories-con">
-                    <div class="catogories-con1">
-                        <img src="./image/farm.jpg" alt="">
-                        <a href="">Farms</a>
-                    </div>
-                    <div class="catogories-con1">
-                        <img src="./image/icons.webp" alt="">
-                        <a href="">icons</a>
-                    </div>
-                    <div class="catogories-con1">
-                        <img src="./image/beach.jpg" alt="">
-                        <a href="">Beachfront</a>
-                    </div>
-                    <div class="catogories-con1">
-                        <img src="./image/country.jpg" alt="">
-                        <a href="">Countryside</a>
-                    </div>
-                    <div class="catogories-con1">
-                        <img src="./image/island.jpg" alt="">
-                        <a href="">islands</a>
-                    </div>
-                    <div class="catogories-con1">
-                        <img src="./image/lake.jpg" alt="">
-                        <a href="">Lake</a>
-                    </div>
-                    <div class="catogories-con1">
-                        <img src="./image/room.jpg" alt="">
-                        <a href="">Room</a>
-                    </div>
-                    <div class="catogories-con1">
-                        <img src="./image/cabin.jpg" alt="">
-                        <a href="">Cabin</a>
-                    </div>
-                    <div class="catogories-con1">
-                        <img src="./image/cave.jpg" alt="">
-                        <a href="">Cave</a>
-                    </div>
-                    <div class="catogories-con1">
-                        <img src="./image/pinous.jpg" alt="">
-                        <a href="">Pinous</a>
-                    </div>
-                </div>
+      <div class="main-content-1">
+        <!--navbar-->
+        <nav class="navbar">
+          <div class="nav-1">
+            <img src="./image/airbnb.png" alt="" class="airbnb" />
+            <div class="nav-1-sea">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <input type="text" placeholder="Start your search" />
             </div>
-            <!--tax-->
-            <div class="tax-box">
-                <div class="tax-box1">
-                    <div class="tax-1">
-                        <p>Display total price</p>
-                        <span>includes all fees,before taxes</span>
-                    </div>
-                    <img src="./image/off-button.png" alt="">
-                </div>
+            <div class="nav-2">
+              <img src="./image/settings.png" alt="" />
             </div>
-            <!--hotle show-->
-            <div class="rest">
-                <div class="rest-cont">
-                    <div class="rest-cont1">
-                        <div class="rest-img">
-                            <img src="./image/res2.avif" alt="">
-                        </div>
-                        <div class="rest-tit">
-                            <h2>Chennai,indian</h2>
-                        <span class="star"><img src="./image/star.png" alt="">5.0</span>
-                        </div>
-                        
-                        <p>220 kilometers away</p>
-                        <p>26-31 jan</p>
-                        <p style="font-weight: 600; margin-top: 3px;"> &#8377; 13,444 per night</p>
-                        <p class="fav">Guest favorite</p>
-                        <!-- <div class="heart">
-                            <img src="./image/heart.png" alt="">
-                        </div> -->
-                        <img src="./image/heart.png" alt="" class="heart">
-
-                    </div>
-
-                    <div class="rest-cont1">
-                        <div class="rest-img">
-                            <img src="./image/res2.avif" alt="">
-                        </div>
-                        <div class="rest-tit">
-                            <h2>Chennai,indian</h2>
-                        <span class="star"><img src="./image/star.png" alt="">5.0</span>
-                        </div>
-                        
-                        <p>220 kilometers away</p>
-                        <p>26-31 jan</p>
-                        <p style="font-weight: 600; margin-top: 3px;"> &#8377; 13,444 per night</p>
-                        <p class="fav">Guest favorite</p>
-                        <!-- <div class="heart">
-                            <img src="./image/heart.png" alt="">
-                        </div> -->
-                        <img src="./image/heart.png" alt="" class="heart">
-
-                    </div>
-                    <div class="rest-cont1">
-                        <div class="rest-img">
-                            <img src="./image/res2.avif" alt="">
-                        </div>
-                        <div class="rest-tit">
-                            <h2>Chennai,indian</h2>
-                        <span class="star"><img src="./image/star.png" alt="">5.0</span>
-                        </div>
-                        
-                        <p>220 kilometers away</p>
-                        <p>26-31 jan</p>
-                        <p style="font-weight: 600; margin-top: 3px;"> &#8377; 13,444 per night</p>
-                        <p class="fav">Guest favorite</p>
-                        <!-- <div class="heart">
-                            <img src="./image/heart.png" alt="">
-                        </div> -->
-                        <img src="./image/heart.png" alt="" class="heart">
-
-
-                    </div>
-                    <div class="rest-cont1">
-                        <div class="rest-img">
-                            <img src="./image/res2.avif" alt="">
-                        </div>
-                        <div class="rest-tit">
-                            <h2>Chennai,indian</h2>
-                        <span class="star"><img src="./image/star.png" alt="">5.0</span>
-                        </div>
-                        
-                        <p>220 kilometers away</p>
-                        <p>26-31 jan</p>
-                        <p style="font-weight: 600; margin-top: 3px;"> &#8377; 13,444 per night</p>
-                        <p class="fav">Guest favorite</p>
-                        <!-- <div class="heart">
-                            <img src="./image/heart.png" alt="">
-                        </div> -->
-                        <img src="./image/heart.png" alt="" class="heart">
-
-
-                    </div>
-                    <div class="rest-cont1">
-                        <div class="rest-img">
-                            <img src="./image/res2.avif" alt="">
-                        </div>
-                        <div class="rest-tit">
-                            <h2>Chennai,indian</h2>
-                        <span class="star"><img src="./image/star.png" alt="">5.0</span>
-                        </div>
-                        
-                        <p>220 kilometers away</p>
-                        <p>26-31 jan</p>
-                        <p style="font-weight: 600; margin-top: 3px;"> &#8377; 13,444 per night</p>
-                        <p class="fav">Guest favorite</p>
-                        <!-- <div class="heart">
-                            <img src="./image/heart.png" alt="">
-                        </div> -->
-                        <img src="./image/heart.png" alt="" class="heart">
-
-
-                    </div>
-                    <div class="rest-cont1">
-                        <div class="rest-img">
-                            <img src="./image/res2.avif" alt="">
-                        </div>
-                        <div class="rest-tit">
-                            <h2>Chennai,indian</h2>
-                        <span class="star"><img src="./image/star.png" alt="">5.0</span>
-                        </div>
-                        
-                        <p>220 kilometers away</p>
-                        <p>26-31 jan</p>
-                        <p style="font-weight: 600; margin-top: 3px;"> &#8377; 13,444 per night</p>
-                        <p class="fav">Guest favorite</p>
-                        <!-- <div class="heart">
-                            <img src="./image/heart.png" alt="">
-                        </div> -->
-                        <img src="./image/heart.png" alt="" class="heart">
-
-
-                    </div>
-                    <div class="rest-cont1">
-                        <div class="rest-img">
-                            <img src="./image/res2.avif" alt="">
-                        </div>
-                        <div class="rest-tit">
-                            <h2>Chennai,indian</h2>
-                        <span class="star"><img src="./image/star.png" alt="">5.0</span>
-                        </div>
-                        
-                        <p>220 kilometers away</p>
-                        <p>26-31 jan</p>
-                        <p style="font-weight: 600; margin-top: 3px;"> &#8377; 13,444 per night</p>
-                        <p class="fav">Guest favorite</p>
-                       <!-- <div class="heart">
-                            <img src="./image/heart.png" alt="">
-                        </div> -->
-                        <img src="./image/heart.png" alt="" class="heart">
-
-
-                    </div>
-                    <div class="rest-cont1">
-                        <div class="rest-img">
-                            <img src="./image/res2.avif" alt="">
-                        </div>
-                        <div class="rest-tit">
-                            <h2>Chennai,indian</h2>
-                        <span class="star"><img src="./image/star.png" alt="">5.0</span>
-                        </div>
-                        
-                        <p>220 kilometers away</p>
-                        <p>26-31 jan</p>
-                        <p style="font-weight: 600; margin-top: 3px;"> &#8377; 13,444 per night</p>
-                        <p class="fav">Guest favorite</p>
-                       <!-- <div class="heart">
-                            <img src="./image/heart.png" alt="">
-                        </div> -->
-                        <img src="./image/heart.png" alt="" class="heart">
-
-
-                    </div>
-                    <div class="rest-cont1">
-                        <div class="rest-img">
-                            <img src="./image/res2.avif" alt="">
-                        </div>
-                        <div class="rest-tit">
-                            <h2>Chennai,indian</h2>
-                        <span class="star"><img src="./image/star.png" alt="">5.0</span>
-                        </div>
-                        
-                        <p>220 kilometers away</p>
-                        <p>26-31 jan</p>
-                        <p style="font-weight: 600; margin-top: 3px;"> &#8377; 13,444 per night</p>
-                        <p class="fav">Guest favorite</p>
-                        <!-- <div class="heart">
-                            <img src="./image/heart.png" alt="">
-                        </div> -->
-                        <img src="./image/heart.png" alt="" class="heart">
-
-
-                    </div>
-                    <div class="rest-cont1">
-                        <div class="rest-img">
-                            <img src="./image/res2.avif" alt="">
-                        </div>
-                        <div class="rest-tit">
-                            <h2>Chennai,indian</h2>
-                        <span class="star"><img src="./image/star.png" alt="">5.0</span>
-                        </div>
-                        
-                        <p>220 kilometers away</p>
-                        <p>26-31 jan</p>
-                        <p style="font-weight: 600; margin-top: 3px;"> &#8377; 13,444 per night</p>
-                        <p class="fav">Guest favorite</p>
-                       <!-- <div class="heart">
-                            <img src="./image/heart.png" alt="">
-                        </div> -->
-                        <img src="./image/heart.png" alt="" class="heart">
-
-
-                    </div>
-                    <div class="rest-cont1">
-                        <div class="rest-img">
-                            <img src="./image/res2.avif" alt="">
-                        </div>
-                        <div class="rest-tit">
-                            <h2>Chennai,indian</h2>
-                        <span class="star"><img src="./image/star.png" alt="">5.0</span>
-                        </div>
-                        
-                        <p>220 kilometers away</p>
-                        <p>26-31 jan</p>
-                        <p style="font-weight: 600; margin-top: 3px;"> &#8377; 13,444 per night</p>
-                        <p class="fav">Guest favorite</p>
-                       <!-- <div class="heart">
-                            <img src="./image/heart.png" alt="">
-                        </div> -->
-                        <img src="./image/heart.png" alt="" class="heart">
-
-                    </div>
-                    <div class="rest-cont1">
-                        <div class="rest-img">
-                            <img src="./image/res2.avif" alt="">
-                        </div>
-                        <div class="rest-tit">
-                            <h2>Chennai,indian</h2>
-                        <span class="star"><img src="./image/star.png" alt="">5.0</span>
-                        </div>
-                        
-                        <p>220 kilometers away</p>
-                        <p>26-31 jan</p>
-                        <p style="font-weight: 600; margin-top: 3px;"> &#8377; 13,444 per night</p>
-                        <p class="fav">Guest favorite</p>
-                        <!-- <div class="heart">
-                            <img src="./image/heart.png" alt="">
-                        </div> -->
-                        <img src="./image/heart.png" alt="" class="heart">
-
-
-                    </div>
-                    <div class="rest-cont1">
-                        <div class="rest-img">
-                            <img src="./image/res2.avif" alt="">
-                        </div>
-                        <div class="rest-tit">
-                            <h2>Chennai,indian</h2>
-                        <span class="star"><img src="./image/star.png" alt="">5.0</span>
-                        </div>
-                        
-                        <p>220 kilometers away</p>
-                        <p>26-31 jan</p>
-                        <p style="font-weight: 600; margin-top: 3px;"> &#8377; 13,444 per night</p>
-                        <p class="fav">Guest favorite</p>
-                       <!-- <div class="heart">
-                            <img src="./image/heart.png" alt="">
-                        </div> -->
-                        <img src="./image/heart.png" alt="" class="heart">
-
-
-                    </div>
-                    <div class="rest-cont1">
-                        <div class="rest-img">
-                            <img src="./image/res2.avif" alt="">
-                        </div>
-                        <div class="rest-tit">
-                            <h2>Chennai,indian</h2>
-                        <span class="star"><img src="./image/star.png" alt="">5.0</span>
-                        </div>
-                        
-                        <p>220 kilometers away</p>
-                        <p>26-31 jan</p>
-                        <p style="font-weight: 600; margin-top: 3px;"> &#8377; 13,444 per night</p>
-                        <p class="fav">Guest favorite</p>
-                     <!-- <div class="heart">
-                            <img src="./image/heart.png" alt="">
-                        </div> -->
-                        <img src="./image/heart.png" alt="" class="heart">
-
-
-                    </div>
-                    <div class="rest-cont1">
-                        <div class="rest-img">
-                            <img src="./image/res2.avif" alt="">
-                        </div>
-                        <div class="rest-tit">
-                            <h2>Chennai,indian</h2>
-                        <span class="star"><img src="./image/star.png" alt="">5.0</span>
-                        </div>
-                        
-                        <p>220 kilometers away</p>
-                        <p>26-31 jan</p>
-                        <p style="font-weight: 600; margin-top: 3px;"> &#8377; 13,444 per night</p>
-                        <p class="fav">Guest favorite</p>
-                       <!-- <div class="heart">
-                            <img src="./image/heart.png" alt="">
-                        </div> -->
-                        <img src="./image/heart.png" alt="" class="heart">
-
-
-                    </div>
+          </div>
+        </nav>
+        <!--responsive nav-->
+        <nav class="lap-nav">
+            <div class="lap-cont">
+                <div class="lap-cont1">
+                    <img src="./image/1736594427878.jpg" alt="">
                 </div>
-            </div>
-            <!--show more-->
-            <div class="more">
-                <div class="more-cont">
-                    <p>Continue exploring amazing pools</p>
-                    <button>Show more</button>
+                <div class="lap-cont2">
+                    <p>Stays</p>
+                    <p style="color: #989898;">Experiences</p>
                 </div>
-            </div>
-            <!--footer-->
-            <footer class="foot">
-
-                <div class="foot-main">
-
-                    <p class="f-h">Inspiration for future getaways</p>
-
-                    <div class="foot-main1">
-                      <p> <a href="">Popular</a> </p> 
-                      <p><a href="">Arts&culture</a></p> 
-                      <p><a href="">Outdoors</a></p>
-                      <p><a href="">Mountain</a></p>  
-                      <p> <a href="">Beach</a></p>   
-                      <p><a href="">Categories</a></p>     
-                      <p> <a href="">Things&nbsp;to&nbsp;do</a></p>    
-                      <p><a href="">Unique&nbsp;stays</a></p>     
-                    </div>
-
-                    <div class="foot-main2">
-
-                     <div class="foot-2">
-
-                       
-                        <div class="foot-main2-1">
-                            <p>Canmore</p>
-                            <span>Pet-friendlyrentals</span>
-                        </div>
-                        <div class="foot-main2-1">
-                            <p>marbella</p>
-                            <span>Villa rentals</span>
-                        </div>
-                        <div class="foot-main2-1">
-                            <p>Prescott</p>
-                            <span>Cabin rentals</span>
-                        </div>
-                        <div class="foot-main2-1">
-                            <p>Tucson</p>
-                            <span>Flat rentals</span>
-                        </div>
-
-
-                    </div>
-
-                    <div class="foot-3">
-                        <div class="foot-main2-1">
-                            <p>Benalmadena</p>
-                            <span>Beach house rentals</span>
-                        </div>
-                        <div class="foot-main2-1">
-                            <p>Mijas</p>
-                            <span>Flat rentals</span>
-                        </div>
-                        <div class="foot-main2-1">
-                            <p>Scottsdale</p>
-                            <span>Mansion rentals</span>
-                        </div>
-                        <div class="foot-main2-1">
-                            <p>Show more</p>
-                           
-                        </div>
-
-                    </div>
-
-                </div>
-
-                    <div class="foot-main3">
-                        <p>Support</p>
-                        <p>Help Centre</p>
-                        <p>AirCover</p>
-                        <p>Anti-discrimination</p>
-                        <p>Disability support</p>
-                        <p>Cancellation options</p>
-                        <p>Report neighbourhood concert</p>
-                    </div>
-
-                    <div class="foot-main3">
-                        <p> Hosting</p>
+                <div class="lap-cont3">
+                    <div class="lap-cont3-1">
                         <p>Airbnb your home</p>
-                        <p>AirCover </p>
-                        <p>AirCover for Hosts</p>
-                        <p>Community forum</p>
-                        <p>Join a free Hosting class</p>
-                        <p>Find a co-host</p>
+                        <img src="./image/globe-network.png" alt="">
                     </div>
-
-                    <div class="foot-main3">
-                        <p>Airbnb</p>
-                        <p>Newsroom</p>
-                        <p>careers</p>
-                        <p>Investors</p>
-                        <p>Airbnb.org</p>
+                    <div class="lap-cont3-2">
+                        <img src="./image/menu (1).png" class="a">
+                        <img src="./image/avatar.png" class="b">
                     </div>
+                </div>
+            </div>
+            <div class="lap-sear">
+                <div class="lap-sear-cont">
+                    <div class="lap-sear-cont1">
+                        <p>Where</p>
+                        <span>Seach destinations</span>
+                    </div>
+                    <b>|</b>
+                    <div class="lap-sear-cont2">
+                        <p>Check in</p>
+                        <span>Add dates</span>
+                    </div>
+                    <b>|</b>
+                    <div class="lap-sear-cont3">
+                        <p>Check out</p>
+                        <span>Add dates</span>
+                    </div>
+                    <b>|</b>
+                    <div class="lap-sear-cont4">
 
-                    <div class="foot-main4">
-                        <div class="foot-m4">
-                            <div class="foot-m4-1">
-                                <img src="./image/globe-network.png" alt="">
-                                <p>English (IN)</p>
-                            </div>
-                            <p>&#8377; INR</p>
-                        </div>
-                        <div class="foot-m4-2">
-                             <p> &copy; 2025 Airbnb,inc.</p>
-                             <p>Privacy &nbsp;.&nbsp;Terms&nbsp;.&nbsp;Sitemap&nbsp;.&nbsp;Company details</p>
-                        </div>
-                        
+                       <div class="lap-sear-cont4-1">
+                         <p>Who</p>
+                         <span>Add guests</span>
+                       </div>
+
+                       <div class="lap-sear-cont4-2">
+                        <img src="./image/transparency.png" alt="">
+                       </div>
                     </div>
 
                 </div>
-            </footer>
+            </div>
+        </nav>
+        
+        <!--catogories-->
+        <div class="catogories">
+          <div class="catogories-con">
+            <div class="catogories-con1">
+              <img src="./image/farm.jpg" alt="" />
+              <a href="">Farms</a>
+            </div>
+            <div class="catogories-con1">
+              <img src="./image/icons.webp" alt="" />
+              <a href="">icons</a>
+            </div>
+            <div class="catogories-con1">
+              <img src="./image/beach.jpg" alt="" />
+              <a href="">Beachfront</a>
+            </div>
+            <div class="catogories-con1">
+              <img src="./image/country.jpg" alt="" />
+              <a href="">Countryside</a>
+            </div>
+            <div class="catogories-con1">
+              <img src="./image/island.jpg" alt="" />
+              <a href="">islands</a>
+            </div>
+            <div class="catogories-con1">
+              <img src="./image/lake.jpg" alt="" />
+              <a href="">Lake</a>
+            </div>
+            <div class="catogories-con1">
+              <img src="./image/room.jpg" alt="" />
+              <a href="">Room</a>
+            </div>
+            <div class="catogories-con1">
+              <img src="./image/cabin.jpg" alt="" />
+              <a href="">Cabin</a>
+            </div>
+            <div class="catogories-con1">
+              <img src="./image/cave.jpg" alt="" />
+              <a href="">Cave</a>
+            </div>
+            <div class="catogories-con1">
+              <img src="./image/pinous.jpg" alt="" />
+              <a href="">Pinous</a>
+            </div>
+
+            <!--filter-->
+            <div class="filter">
+                <div class="filter-con">
+                    <img src="./image/settings.png">
+                    <p>Filters</p>
+                </div>
+            </div>
+
+            <!--tax responsive-->
+          <div class="tax-box-res">
+            <div class="tax-box1-res">
+              <div class="tax-1res">
+                <p>Display total before taxes</p>
+              </div>
+              <img src="./image/off-button.png" alt="" />
+            </div>
+          </div>
+
+          </div>
+
+          
         </div>
+
+        <!--tax-->
+        <div class="tax-box">
+          <div class="tax-box1">
+            <div class="tax-1">
+              <p>Display total price</p>
+              <span>includes all fees,before taxes</span>
+            </div>
+            <img src="./image/off-button.png" alt="" />
+          </div>
+        </div>
+        <!--hotle show-->
+        <div class="rest">
+          <div class="rest-cont">
+            <div class="rest-cont1">
+              <div class="rest-img">
+                <img src="./image/res2.avif" alt="" />
+              </div>
+              <div class="rest-tit">
+                <h2>Chennai,indian</h2>
+                <span class="star"
+                  ><img src="./image/star.png" alt="" />4.0</span
+                >
+              </div>
+
+              <p>200 kilometers away</p>
+              <p>20-31 jan</p>
+              <p style="font-weight: 600; margin-top: 3px">
+                &#8377; 13,444 per night
+              </p>
+              <p class="fav">Guest favorite</p>
+              <!-- <div class="heart">
+                            <img src="./image/heart.png" alt="">
+                        </div> -->
+              <img src="./image/heart.png" alt="" class="heart" />
+            </div>
+
+            <div class="rest-cont1">
+              <div class="rest-img">
+                <img src="./image/res4.avif" alt="" />
+              </div>
+              <div class="rest-tit">
+                <h2>Kottathara, India</h2>
+                <span class="star"
+                  ><img src="./image/star.png" alt="" />5.0</span
+                >
+              </div>
+
+              <p>220 kilometers away</p>
+              <p>26-31 jan</p>
+              <p style="font-weight: 600; margin-top: 3px">
+                &#8377; 13,444 per night
+              </p>
+              <p class="fav">Guest favorite</p>
+              <!-- <div class="heart">
+                            <img src="./image/heart.png" alt="">
+                        </div> -->
+              <img src="./image/heart.png" alt="" class="heart" />
+            </div>
+
+            <div class="rest-cont1">
+              <div class="rest-img">
+                <img src="./image/res5.avif" alt="" />
+              </div>
+              <div class="rest-tit">
+                <h2>kalpetta,india</h2>
+                <span class="star"
+                  ><img src="./image/star.png" alt="" />5.0</span
+                >
+              </div>
+
+              <p>210 kilometers away</p>
+              <p>2-31 jan</p>
+              <p style="font-weight: 600; margin-top: 3px">
+                &#8377; 12,444 per night
+              </p>
+              <p class="fav">Guest favorite</p>
+              <!-- <div class="heart">
+                            <img src="./image/heart.png" alt="">
+                        </div> -->
+              <img src="./image/heart.png" alt="" class="heart" />
+            </div>
+
+            <div class="rest-cont1">
+              <div class="rest-img">
+                <img src="./image/res6.avif" alt="" />
+              </div>
+              <div class="rest-tit">
+                <h2>kotagiri,indian</h2>
+                <span class="star"
+                  ><img src="./image/star.png" alt="" />4.0</span
+                >
+              </div>
+
+              <p>120 kilometers away</p>
+              <p>6-31 jan</p>
+              <p style="font-weight: 600; margin-top: 3px">
+                &#8377; 16,444 per night
+              </p>
+              <p class="fav">Guest favorite</p>
+              <!-- <div class="heart">
+                            <img src="./image/heart.png" alt="">
+                        </div> -->
+              <img src="./image/heart.png" alt="" class="heart" />
+            </div>
+
+            <div class="rest-cont1">
+              <div class="rest-img">
+                <img src="./image/res7.avif" alt="" />
+              </div>
+              <div class="rest-tit">
+                <h2>Manjapaara,indian</h2>
+                <span class="star"
+                  ><img src="./image/star.png" alt="" />3.0</span
+                >
+              </div>
+
+              <p>500 kilometers away</p>
+              <p>7-31 jan</p>
+              <p style="font-weight: 600; margin-top: 3px">
+                &#8377; 1,444 per night
+              </p>
+              <p class="fav">Guest favorite</p>
+              <!-- <div class="heart">
+                            <img src="./image/heart.png" alt="">
+                        </div> -->
+              <img src="./image/heart.png" alt="" class="heart" />
+            </div>
+
+            <div class="rest-cont1">
+              <div class="rest-img">
+                <img src="./image/res8.avif" alt="" />
+              </div>
+              <div class="rest-tit">
+                <h2>kotagiri,indian</h2>
+                <span class="star"
+                  ><img src="./image/star.png" alt="" />5.0</span
+                >
+              </div>
+
+              <p>520 kilometers away</p>
+              <p>4-31 jan</p>
+              <p style="font-weight: 600; margin-top: 3px">
+                &#8377; 19,444 per night
+              </p>
+              <p class="fav">Guest favorite</p>
+              <!-- <div class="heart">
+                            <img src="./image/heart.png" alt="">
+                        </div> -->
+              <img src="./image/heart.png" alt="" class="heart" />
+            </div>
+
+            <div class="rest-cont1">
+              <div class="rest-img">
+                <img src="./image/res9.avif" alt="" />
+              </div>
+              <div class="rest-tit">
+                <h2>kattabettu,indian</h2>
+                <span class="star"
+                  ><img src="./image/star.png" alt="" />4.0</span
+                >
+              </div>
+
+              <p>270 kilometers away</p>
+              <p>2-31 jan</p>
+              <p style="font-weight: 600; margin-top: 3px">
+                &#8377; 1,444 per night
+              </p>
+              <p class="fav">Guest favorite</p>
+              <!-- <div class="heart">
+                            <img src="./image/heart.png" alt="">
+                        </div> -->
+              <img src="./image/heart.png" alt="" class="heart" />
+            </div>
+            
+            <div class="rest-cont1">
+              <div class="rest-img">
+                <img src="./image/res10.avif" alt="" />
+              </div>
+              <div class="rest-tit">
+                <h2>Makkiyad,indian</h2>
+                <span class="star"
+                  ><img src="./image/star.png" alt="" />5.0</span
+                >
+              </div>
+
+              <p>280 kilometers away</p>
+              <p>16-31 jan</p>
+              <p style="font-weight: 600; margin-top: 3px">
+                &#8377; 3,444 per night
+              </p>
+              <p class="fav">Guest favorite</p>
+              <!-- <div class="heart">
+                            <img src="./image/heart.png" alt="">
+                        </div> -->
+              <img src="./image/heart.png" alt="" class="heart" />
+            </div>
+
+            <div class="rest-cont1">
+              <div class="rest-img">
+                <img src="./image/res11.avif" alt="" />
+              </div>
+              <div class="rest-tit">
+                <h2>Coonoor,indian</h2>
+                <span class="star"
+                  ><img src="./image/star.png" alt="" />5.0</span
+                >
+              </div>
+
+              <p>120 kilometers away</p>
+              <p>24-31 jan</p>
+              <p style="font-weight: 600; margin-top: 3px">
+                &#8377; 14,444 per night
+              </p>
+              <p class="fav">Guest favorite</p>
+              <!-- <div class="heart">
+                            <img src="./image/heart.png" alt="">
+                        </div> -->
+              <img src="./image/heart.png" alt="" class="heart" />
+            </div>
+
+            <div class="rest-cont1">
+              <div class="rest-img">
+                <img src="./image/res12.avif" alt="" />
+              </div>
+              <div class="rest-tit">
+                <h2>Assagao,indian</h2>
+                <span class="star"
+                  ><img src="./image/star.png" alt="" />4.0</span
+                >
+              </div>
+
+              <p>123 kilometers away</p>
+              <p>26-30 jan</p>
+              <p style="font-weight: 600; margin-top: 3px">
+                &#8377; 1,444 per night
+              </p>
+              <p class="fav">Guest favorite</p>
+              <!-- <div class="heart">
+                            <img src="./image/heart.png" alt="">
+                        </div> -->
+              <img src="./image/heart.png" alt="" class="heart" />
+            </div>
+
+            <div class="rest-cont1">
+              <div class="rest-img">
+                <img src="./image/res18.avif" alt="" />
+              </div>
+              <div class="rest-tit">
+                <h2>Kappad,indian</h2>
+                <span class="star"
+                  ><img src="./image/star.png" alt="" />5.0</span
+                >
+              </div>
+
+              <p>320 kilometers away</p>
+              <p>26-219jan</p>
+              <p style="font-weight: 600; margin-top: 3px">
+                &#8377; 10,444 per night
+              </p>
+              <p class="fav">Guest favorite</p>
+              <!-- <div class="heart">
+                            <img src="./image/heart.png" alt="">
+                        </div> -->
+              <img src="./image/heart.png" alt="" class="heart" />
+            </div>
+
+            <div class="rest-cont1">
+              <div class="rest-img">
+                <img src="./image/res14.avif" alt="" />
+              </div>
+              <div class="rest-tit">
+                <h2>Vagator,indian</h2>
+                <span class="star"
+                  ><img src="./image/star.png" alt="" />5.0</span
+                >
+              </div>
+
+              <p>230 kilometers away</p>
+              <p>24-31 jan</p>
+              <p style="font-weight: 600; margin-top: 3px">
+                &#8377; 1,444 per night
+              </p>
+              <p class="fav">Guest favorite</p>
+              <!-- <div class="heart">
+                            <img src="./image/heart.png" alt="">
+                        </div> -->
+              <img src="./image/heart.png" alt="" class="heart" />
+            </div>
+
+            <div class="rest-cont1">
+              <div class="rest-img">
+                <img src="./image/res15.avif" alt="" />
+              </div>
+              <div class="rest-tit">
+                <h2>Donaje,indian</h2>
+                <span class="star"
+                  ><img src="./image/star.png" alt="" />4.0</span
+                >
+              </div>
+
+              <p>220 kilometers away</p>
+              <p>12-31 jan</p>
+              <p style="font-weight: 600; margin-top: 3px">
+                &#8377; 19,444 per night
+              </p>
+              <p class="fav">Guest favorite</p>
+              <!-- <div class="heart">
+                            <img src="./image/heart.png" alt="">
+                        </div> -->
+              <img src="./image/heart.png" alt="" class="heart" />
+            </div>
+
+            <div class="rest-cont1">
+              <div class="rest-img">
+                <img src="./image/res16.avif" alt="" />
+              </div>
+              <div class="rest-tit">
+                <h2>Panaji,indian</h2>
+                <span class="star"
+                  ><img src="./image/star.png" alt="" />3.0</span
+                >
+              </div>
+
+              <p>260 kilometers away</p>
+              <p>2-24 jan</p>
+              <p style="font-weight: 600; margin-top: 3px">
+                &#8377; 14,444 per night
+              </p>
+              <p class="fav">Guest favorite</p>
+              <!-- <div class="heart">
+                            <img src="./image/heart.png" alt="">
+                        </div> -->
+              <img src="./image/heart.png" alt="" class="heart" />
+            </div>
+
+            <div class="rest-cont1">
+              <div class="rest-img">
+                <img src="./image/res17.webp" alt="" />
+              </div>
+              <div class="rest-tit">
+                <h2>Kandy,indian</h2>
+                <span class="star"
+                  ><img src="./image/star.png" alt="" />3.0</span
+                >
+              </div>
+
+              <p>244 kilometers away</p>
+              <p>26-30 jan</p>
+              <p style="font-weight: 600; margin-top: 3px">
+                &#8377; 3,444 per night
+              </p>
+              <p class="fav">Guest favorite</p>
+              <!-- <div class="heart">
+                            <img src="./image/heart.png" alt="">
+                        </div> -->
+              <img src="./image/heart.png" alt="" class="heart" />
+            </div>
+          </div>
+        </div>
+
+        <!--show more-->
+
+        <div class="more">
+          <div class="more-cont">
+            <p>Continue exploring amazing pools</p>
+            <button>Show more</button>
+          </div>
+        </div>
+        <!--footer-->
+        <footer class="foot">
+          <div class="foot-main">
+            <p class="f-h">Inspiration for future getaways</p>
+
+            <div class="foot-main1">
+              <p><a href="">Popular</a></p>
+              <p><a href="">Arts&culture</a></p>
+              <p><a href="">Outdoors</a></p>
+              <p><a href="">Mountain</a></p>
+              <p><a href="">Beach</a></p>
+              <p><a href="">Categories</a></p>
+              <p><a href="">Things&nbsp;to&nbsp;do</a></p>
+              <p><a href="">Unique&nbsp;stays</a></p>
+            </div>
+
+            <div class="foot-main2">
+              <div class="foot-2">
+                <div class="foot-main2-1">
+                  <p>Canmore</p>
+                  <span>Pet-friendlyrentals</span>
+                </div>
+                <div class="foot-main2-1">
+                  <p>marbella</p>
+                  <span>Villa rentals</span>
+                </div>
+                <div class="foot-main2-1">
+                  <p>Prescott</p>
+                  <span>Cabin rentals</span>
+                </div>
+                <div class="foot-main2-1">
+                  <p>Tucson</p>
+                  <span>Flat rentals</span>
+                </div>
+              </div>
+
+              <div class="foot-3">
+                <div class="foot-main2-1">
+                  <p>Benalmadena</p>
+                  <span>Beach house rentals</span>
+                </div>
+                <div class="foot-main2-1">
+                  <p>Mijas</p>
+                  <span>Flat rentals</span>
+                </div>
+                <div class="foot-main2-1">
+                  <p>Scottsdale</p>
+                  <span>Mansion rentals</span>
+                </div>
+                <div class="foot-main2-1">
+                  <p>Show more</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="foot-main3">
+              <p>Support</p>
+              <p>Help Centre</p>
+              <p>AirCover</p>
+              <p>Anti-discrimination</p>
+              <p>Disability support</p>
+              <p>Cancellation options</p>
+              <p>Report neighbourhood concert</p>
+            </div>
+
+            <div class="foot-main3">
+              <p>Hosting</p>
+              <p>Airbnb your home</p>
+              <p>AirCover</p>
+              <p>AirCover for Hosts</p>
+              <p>Community forum</p>
+              <p>Join a free Hosting class</p>
+              <p>Find a co-host</p>
+            </div>
+
+            <div class="foot-main3">
+              <p>Airbnb</p>
+              <p>Newsroom</p>
+              <p>careers</p>
+              <p>Investors</p>
+              <p>Airbnb.org</p>
+            </div>
+
+            <div class="foot-main4">
+              <div class="foot-m4">
+                <div class="foot-m4-1">
+                  <img src="./image/globe-network.png" alt="" />
+                  <p>English (IN)</p>
+                </div>
+                <p>&#8377; INR</p>
+              </div>
+              <div class="foot-m4-2">
+                <p>&copy; 2025 Airbnb,inc.</p>
+                <p>
+                  Privacy
+                  &nbsp;.&nbsp;Terms&nbsp;.&nbsp;Sitemap&nbsp;.&nbsp;Company
+                  details
+                </p>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
     </main>
-    
-</body>
+  </body>
 </html>

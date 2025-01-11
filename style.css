@@ -2,6 +2,12 @@
     margin: 0%;
     padding: 0%;
     font-size: 12px;
+    font-family: "Kanit", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.navbar{
+    display: block;
 }
 .airbnb{
     width: 40px;
@@ -68,7 +74,6 @@
 .catogories-con{
     display: flex;
     gap: 20px;
-    
     margin-top: 0%;
     overflow:scroll;
 }
@@ -122,7 +127,7 @@
 .heart{
     width: 20px;
     position: relative;
-    bottom: 385px;
+    bottom: 384px;
     left: 90%;
     
 }
@@ -145,7 +150,7 @@
 }
 .rest-tit{
     display: flex;
-    gap: 59%;
+    gap: 60%;
        
 }
 .rest{
@@ -251,4 +256,166 @@
 }
 .foot-m4-2  p{
     margin-top: 5px;
+}
+
+/*for resonsive*/
+
+.lap-nav{
+    padding: 5px;
+    display: none;
+}
+.lap-cont img{
+    width: 150px;
+}
+.lap-cont2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.lap-cont3-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.lap-cont3-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.lap-cont3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.lap-cont3-1 img{
+    width: 22px;
+}
+.lap-cont3-2 img{
+    width: 29px;
+}
+.lap-cont3-2{
+    border: solid #d1cdcd 1px;
+    padding: 9px;
+    border-radius: 25px;
+}
+.lap-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+ /*   margin-left: 15px;
+    margin-right: 15px;
+  */  
+}
+/*search nav*/
+.lap-sear-cont4-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:solid #f0467f 1px;
+    border-radius: 40px;
+    background-color: #ec4b81;
+    padding: 6px;
+   
+}
+.lap-sear-cont4-2 img{
+    width: 25px;
+    height: 25px;
+}
+.lap-sear-cont4{
+    display: flex;
+    gap: 40px;
+}
+
+.lap-sear-cont{
+    display: flex;
+    border:solid #f0eaea 1px;
+    border-radius: 30px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+    justify-content: space-around;
+    padding: 10px;
+}
+.lap-sear{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    border-bottom: #D0D0D0 solid 1px;
+    padding: 20px;
+}
+/*tax*/
+.tax-box1-res img{
+    width: 14%;
+}
+.tax-box1-res{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tax-box-res{
+    display: flex;
+    gap: 20px;
+    border: solid #D0D0D0 1px;
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: center;
+    width: 20%;
+    height: 50px;
+    display: none;
+}
+.tax-1res p{
+    font-size: 14px;
+}
+
+/*filer*/
+
+.filter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:solid #D0D0D0 1px;
+    border-radius: 10px;
+    padding: 10px;
+    display: none;
+}
+.filter-con img{
+    width: 30px;
+}
+.filter-con{
+    display: flex;
+}
+
+/*medeai quories*/
+@media screen and (min-width:790px){
+    *{
+        font-size: 17px;
+        margin-left: 5px;
+    margin-right: 5px;
+    }
+    .body{
+        width: 1440px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+}
+
+@media screen and (min-width:990px){
+    .navbar{
+        display: none;
+    }
+    .lap-nav{
+        display: block;
+    }
+    
+
 }
